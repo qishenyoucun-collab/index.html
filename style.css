@@ -3,7 +3,7 @@ body
     background-color: purple;
     color: #000000;
     margin: 60px;
-    line-height: 1.8;
+    line-height: 2;
 }
 
 h1
@@ -11,7 +11,7 @@ h1
     background-color: yellow;
     color:#000000;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 6px;
     text-align: center;
 }
 
@@ -20,7 +20,7 @@ h2
     background-color: orange;
     color:#000000;
     padding-left: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 P
@@ -28,7 +28,7 @@ P
     background-color: white;
     color:#000000;
     padding-left: 10px;
-    margin-top: 10px;
+    margin-top: 6px;
 }
 
 a
