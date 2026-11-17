@@ -1,39 +1,126 @@
-body 
-{
-    background-color: purple;
-    color: #000000;
-    margin: 60px;
-    line-height: 2;
+/* ページ全体 */
+body {
+    margin: 0;
+    padding: 30px 15px;
+    background-color: #EAF2FF;
+    font-family: "Yu Gothic", "Meiryo", sans-serif;
+    color: #26364A;
+    line-height: 1.8;
 }
 
-h1
-{
-    background-color: yellow;
-    color:#000000;
-    padding: 10px;
-    border-radius: 6px;
+/* メイン画面 */
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+/* 上部のプロフィール */
+.profile-header {
+    background: linear-gradient(135deg, #173B70, #3978B9);
+    color: white;
     text-align: center;
+    padding: 40px 20px;
+    border-radius: 16px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.12);
 }
 
-h2
-{
-    background-color: orange;
-    color:#000000;
-    padding-left: 10px;
-    margin-top: 20px;
+.profile-header h1 {
+    font-size: 30px;
+    margin: 10px 0;
 }
 
-P
-{
+.profile-header h2 {
+    font-size: 25px;
+    margin: 15px 0 5px;
+}
+
+.profile-header p {
+    margin: 5px 0;
+}
+
+.subtitle {
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+
+/* 各項目のカード */
+.profile-card {
     background-color: white;
-    color:#000000;
-    padding-left: 10px;
-    margin-top: 6px;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.07);
 }
 
-a
-{
-    color:#FF0000;
-    padding-left: 10px;
-    margin-top: 10px;
+/* 見出し */
+.profile-card h2 {
+    color: #173B70;
+    font-size: 21px;
+    border-left: 5px solid #3978B9;
+    padding-left: 12px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* 趣味のリスト */
+.hobby-list {
+    padding-left: 25px;
+}
+
+.hobby-list li {
+    margin-bottom: 8px;
+}
+
+/* GitHubボタン */
+.github-button {
+    display: inline-block;
+    background-color: #173B70;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.github-button:hover {
+    background-color: #3978B9;
+    transform: translateY(-3px);
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    color: #718096;
+    font-size: 13px;
+    padding: 15px;
+}
+
+/* スマートフォン対応 */
+@media screen and (max-width: 600px) {
+
+    body {
+        padding: 15px 10px;
+    }
+
+    .profile-header {
+        padding: 30px 15px;
+    }
+
+    .profile-header h1 {
+        font-size: 24px;
+    }
+
+    .profile-card {
+        padding: 20px;
+    }
+
+    .profile-card h2 {
+        font-size: 19px;
+    }
+
+    .github-button {
+        display: block;
+        text-align: center;
+    }
 }
