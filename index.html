@@ -1,33 +1,56 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>自己紹介表</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>自己紹介表</h1>
-        <h2>名前＆ニックネーム</h2>
-        <p>
-        　名前：有村啓伸<br>
-        　ニックネーム：ありけん
-        </p>
-        <h2>自己紹介</h2>
-        <p>
-      　  いろんなゲームで遊んでいます。<br>
-        　コミュニケーション能力はあまりないが、話すことはできるから、気軽に声かけてね！（俺もがんばる！）<br>
-        </p>
-        <h2>趣味</h2>
-        <p>
-          ・ゲーム<br>
-          ・インスタグラム<br>
-        </p>
-        <h2>GitHubリンク</h2>
-        <p>
-            <a href="https://github.com/qishenyoucun-collab" target="_blank">
-                <strong>GitHubプロフィール</strong>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介ページ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header class="profile-header">
+            <p class="subtitle">MY PROFILE</p>
+            <h1>自己紹介ページ</h1>
+            <h2>有村 啓伸</h2>
+            <p>ニックネーム：ありけん</p>
+        </header>
+
+        <section class="profile-card">
+            <h2>自己紹介</h2>
+            <p>
+                いろんなゲームで遊んでいます。
+                コミュニケーション能力はあまりないですが、
+                話すことはできるので、気軽に声をかけてください！
+                （俺もがんばる！）
+            </p>
+        </section>
+
+        <section class="profile-card">
+            <h2>趣味</h2>
+            <ul class="hobby-list">
+                <li>ゲーム</li>
+                <li>Instagram</li>
+            </ul>
+        </section>
+
+        <section class="profile-card">
+            <h2>GitHubリンク</h2>
+            <a class="github-button"
+               href="https://github.com/qishenyoucun-collab"
+               target="_blank"
+               rel="noopener noreferrer">
+                GitHubプロフィールを見る
             </a>
-        </p>
-    </body>
+        </section>
+
+        <footer>
+            <p>MY PROFILE PAGE</p>
+        </footer>
+
+    </main>
+
+</body>
 </html>
